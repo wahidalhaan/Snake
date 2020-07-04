@@ -26,7 +26,7 @@ mvwprintw(rules,3,1,"Arrow Keys to Move");
 mvwprintw(rules,5,1,"q to Quit");
 wattroff(rules,A_REVERSE);
 attron(A_REVERSE);
-mvwprintw(stdscr,yMax/2+5+5,xMax/4-10,"Created By Sonunigga");
+mvwprintw(stdscr,yMax/2+5+5,xMax/4-10,"Made with ncurses");
 attroff(A_REVERSE);
 refresh();
 wrefresh(win);
